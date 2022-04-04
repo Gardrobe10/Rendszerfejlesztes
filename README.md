@@ -10,7 +10,7 @@ Tagok:
 
 ## Description
 
-# Karbantartás-menedzsment rendszer fejlesztése
+#### Karbantartás-menedzsment rendszer fejlesztése
 
 A projekt során egy szervezet karbantartási tevékenységét támogató rendszer fejlesztése a cél, amely
 képes nyilvántartani a szervezet egyes eszközeit, amelyekre ütemezni lehet időszakos, illetve
