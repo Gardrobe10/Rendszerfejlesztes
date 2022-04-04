@@ -8,7 +8,7 @@ Tagok:
 - Gálicz Zsombor
 - Ritter Dávid
 
-## Description
+## Projektleírás
 
 #### Karbantartás-menedzsment rendszer fejlesztése
 
@@ -28,6 +28,6 @@ végezni a hozzárendelt személy
 
 
 
-### Rendszerkövetelmények
+## Rendszerkövetelmények
 
-### Telepítés
+## Telepítés
