@@ -31,8 +31,8 @@ namespace Rendszerfejlesztes
         {
             this.mainlayout = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
-            this.AddDeviceBtn = new System.Windows.Forms.Button();
             this.ShowDevicesBtn = new System.Windows.Forms.Button();
+            this.AddDeviceBtn = new System.Windows.Forms.Button();
             this.mainlayout.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,28 +64,29 @@ namespace Rendszerfejlesztes
             this.label1.Text = "Ön eszközkezelőként van bejelentkezve";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // AddDeviceBtn
-            // 
-            this.AddDeviceBtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.AddDeviceBtn.Location = new System.Drawing.Point(3, 90);
-            this.AddDeviceBtn.Name = "AddDeviceBtn";
-            this.AddDeviceBtn.Size = new System.Drawing.Size(197, 57);
-            this.AddDeviceBtn.TabIndex = 1;
-            this.AddDeviceBtn.Text = "Eszköz felvétele";
-            this.AddDeviceBtn.UseVisualStyleBackColor = true;
-            this.AddDeviceBtn.Click += new System.EventHandler(this.button1_Click);
-            // 
             // ShowDevicesBtn
             // 
             this.ShowDevicesBtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.ShowDevicesBtn.Location = new System.Drawing.Point(25, 153);
+            this.ShowDevicesBtn.Location = new System.Drawing.Point(3, 53);
             this.ShowDevicesBtn.Name = "ShowDevicesBtn";
-            this.ShowDevicesBtn.Size = new System.Drawing.Size(196, 41);
+            this.ShowDevicesBtn.Size = new System.Drawing.Size(230, 41);
             this.ShowDevicesBtn.TabIndex = 2;
             this.ShowDevicesBtn.Text = "Eszközök megtekintése";
             this.ShowDevicesBtn.UseVisualStyleBackColor = true;
+            this.ShowDevicesBtn.Click += new System.EventHandler(this.ShowDevicesBtn_Click);
+            // 
+            // AddDeviceBtn
+            // 
+            this.AddDeviceBtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.AddDeviceBtn.Location = new System.Drawing.Point(3, 100);
+            this.AddDeviceBtn.Name = "AddDeviceBtn";
+            this.AddDeviceBtn.Size = new System.Drawing.Size(230, 57);
+            this.AddDeviceBtn.TabIndex = 1;
+            this.AddDeviceBtn.Text = "Eszköz felvétele";
+            this.AddDeviceBtn.UseVisualStyleBackColor = true;
+            this.AddDeviceBtn.Click += new System.EventHandler(this.button1_Click);
             // 
             // Eszkozkezelo
             // 

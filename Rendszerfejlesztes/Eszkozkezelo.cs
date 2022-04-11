@@ -21,5 +21,11 @@ namespace Rendszerfejlesztes
         {
 
         }
+
+        private void ShowDevicesBtn_Click(object sender, EventArgs e)
+        {
+            Eszkozkezeles ujablak = new Eszkozkezeles();
+            ujablak.ShowDialog();
+        }
     }
 }
